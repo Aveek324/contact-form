@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgba(92, 92, 228, 0.945); */
+    background: linear-gradient(#a224bb, #0e1344);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container {
+    margin: 20px 250px;
+    background-color: #f2f2f2;
+    /* padding: 5px 20px 15px 20px; */
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading {
+    margin: 4%;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+textarea,
+select {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid royalblue;
+    border-radius: 4px;
+    margin-top: 12px;
+    background-color: rgb(230, 230, 230);
+    margin-left: 5%;
+}
+
+label {
+    margin-left: 5%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    height: 45px;
+    width: 90%;
+    background-color: rgb(151, 50, 245);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 20px 10px;
+        background-color: #f2f2f2;
+        /* padding: 5px 20px 15px 20px; */
+        border: 1px solid lightgrey;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
+
+footer {
+    margin-top: 45px;
+    color: white;
+}
